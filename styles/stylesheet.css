@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #a4dce6;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+#quote-box {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#quote-box #quote-text {
+  width: 100%;
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+#quote-box #quote-author {
+  width: 100%;
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+  text-align: right;
+}
+
+#quote-box #buttons {
+  padding-bottom: 2rem;
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+#quote-box #buttons .button {
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+#quote-box #buttons #tweet-button,
+#quote-box #buttons #tumblr-button {
+  width: 50px;
+  float: left;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 2px;
+  margin-right: 10px;
+}
+
+#quote-box #buttons #tweet-button:hover,
+#quote-box #buttons #tumblr-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#quote-box #buttons #new-quote {
+  width: 100px;
+  float: right;
+  text-align: center;
+}
+
+#quote-box #buttons #new-quote:hover {
+  opacity: 0.8;
+}
+
+#by-name {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 1.1rem;
+  mix-blend-mode: difference;
+  font-weight: 600;
+}
+/*# sourceMappingURL=stylesheet.css.map */

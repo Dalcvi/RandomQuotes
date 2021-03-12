@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: rgb(164, 220, 230);
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#quote-box {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #quote-text{
+        width:100%;
+        text-align: center;
+        padding-top: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding-bottom: 1.5rem;
+    }
+    #quote-author{
+        width:100%;
+        font-size: 1.25rem;
+        padding-bottom: 2rem;
+        text-align: right;
+    }
+    #buttons {
+        padding-bottom: 2rem;
+        display: block;
+        flex-direction: row;
+        width:100%;
+        .button{
+            height: 40px;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+        #tweet-button,
+        #tumblr-button {
+            width: 50px;
+            float: left;
+            font-size: 1.5rem;
+            text-align: center;
+            padding-top: 2px;
+            margin-right: 10px;
+
+            &:hover{
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        }
+        #new-quote{
+            width: 100px;
+            float:right;
+            text-align: center;
+
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+}
+#by-name{
+    text-align: center;
+    padding-top: 10px;
+    color:white;
+    font-size: 1.1rem;
+    mix-blend-mode: difference;
+    font-weight: 600;
+}
